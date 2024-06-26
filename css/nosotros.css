@@ -56,6 +56,7 @@
   background-color: var(--secundari-color);
   color: var(--primar-color);
   min-height: 150px;
+  padding: 10px;
 }
 .contact-nosotros {
   display: flex;
@@ -155,6 +156,7 @@
   font-weight: 400;
   font-size: 15px;
   color: var(--submain-color);
+  text-align: center;
 }
 @media (min-width: 1500px) {
   .mision,
@@ -176,5 +178,38 @@
   }
   .conten-mision-vision {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 300px) {
+  .conten-mision-vision {
+    margin: 10px 0px;
+}
+
+  .mision,
+  .vision {
+    width: 95% !important;
+  }
+   .contact-nosotros h2,.text-resultadosweb h2{
+    font-size: 1.4rem ;
+  }
+  .mision-vision h1,
+  .personal h2 {
+    font-size: 1.7rem;
+    margin: 10px 0px;
+  }
+  .card {
+    width: 90%;
+  }
+}
+@media (max-width: 200px) {
+
+  .contact-nosotros a {
+    padding: 10px !important;
+
+  }
+  .resultadosweb button {
+    padding: 10px 10px;
+
   }
 }

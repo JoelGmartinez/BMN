@@ -134,3 +134,17 @@
     outline: none;
   }
 }
+@media (max-width: 200px) {
+  .logo img {
+    width: 100px !important;
+  }
+  .footer__tenic img {
+    width: 100%;
+  }
+
+  .contact-nosotros a {
+    margin-top: 10px;
+    padding: 10px 30px;
+
+}
+}

@@ -278,7 +278,7 @@ body {
   min-height: 300px;
   background: linear-gradient(180deg, #ffbfbf75 0%, rgba(255, 255, 255, 0) 30%);
   /* background: linear-gradient(to bottom, #ffbfbf75,#00aae300 ); */
-  padding-top: 10px;
+  padding-top: 30px;
 }
 .cards {
   display: flex;
@@ -305,17 +305,6 @@ body {
   object-fit: cover;
 }
 
-.card .text {
-  margin-left: 10px;
-  width: 200px;
-  color: #fff;
-}
-.card .text h4 {
-  font-size: 18px;
-}
-.card .text p {
-  font-size: 14px;
-}
 @media (min-width: 1600px) {
   .conten1 {
     width: 1200px;
@@ -457,5 +446,57 @@ body {
   .titulo1 {
     text-align: center !important;
     font-size: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .logo img {
+    width: 150px !important;
+  }
+  .conten-textos li  {
+    margin-top: 20px;
+  }
+  .conten-textos li h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .titulo1 {
+    text-align: center !important;
+    font-size: 25px;
+  }
+  .conten-textos h3 span {
+    display: none;
+}
+  .conten-textos p {
+    margin: 5px 20px;
+    text-align: justify;
+}
+  .bg-estetica{
+    padding-bottom: 100px;
+    padding: 15px;
+  }
+  .bg-estetica .image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 270px) {
+
+  .resultadosweb button {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+
+}
+  .text-estetica h2 {
+    color: #ffabab;
+    font-size: 1.5rem;
+  }
+  .text-estetica button {
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 1rem;
+
   }
 }

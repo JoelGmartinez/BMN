@@ -103,3 +103,10 @@
   }
 
 }
+
+@media (max-width:300px){
+  .banner2{
+    height: 40vh;
+  }
+
+}

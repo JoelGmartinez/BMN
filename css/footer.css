@@ -138,5 +138,17 @@
     font-size: 13px;
   }
 }
+@media (max-width: 300px) {
+  .footer__container {
+    padding: 0px;
+}
+}
+
+@media (max-width: 200px) {
+  .footer__tenic img {
+    width: 120px !important;
+  }
+
+}
 
 
