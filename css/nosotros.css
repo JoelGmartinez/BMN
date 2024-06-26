@@ -1,0 +1,180 @@
+.nosotros-banner {
+  height: 80vh;
+  width: 100%;
+  background-image: url(/assets/webp/DOMICILIO-DE-TOMA-DE-MUESTRA-BMN.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 70px;
+}
+.mision-vision {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  min-height: 350px;
+  padding: 10px;
+}
+
+.mision-vision h1,
+.personal h2 {
+  font-size: 2.3rem;
+  color: var(--secundari-color);
+  text-align: center;
+}
+
+.conten-mision-vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+}
+
+.mision, .vision {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 40px;
+  background-color: var(--secundari-color);
+  color: var(--primar-color);
+  border-radius: 20px;
+  width: 38%;
+  height: 230px;
+}
+.mision h3,
+.vision h3 {
+  margin: 10px;
+}
+.mision p,
+.vision p {
+  text-align: justify;
+}
+/*Contacto*/
+.bg-contact-nosotros {
+  background-color: var(--secundari-color);
+  color: var(--primar-color);
+  min-height: 150px;
+}
+.contact-nosotros {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 200px;
+  text-align: center;
+}
+
+.contact-nosotros h2 {
+  color: var(--primar-color);
+  font-size: 1.8rem;
+}
+
+.contact-nosotros a {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 2px solid var(--primar-color);
+  background-color: var(--secundari-color);
+  color: var(--primar-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all ease 0.5s;
+}
+.contact-nosotros a:hover {
+  background-color: #00d757;
+}
+
+/*Personal*/
+.personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 500px;
+}
+.card {
+  position: relative;
+  width: 280px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0;
+  padding-bottom: 20px;
+  background: var(--primar-color);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: all ease 0.3s;
+}
+.card:hover {
+  scale: 1.03;
+}
+
+.card__img {
+  height: 190px;
+  width: 100%;
+}
+
+.card__img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  object-position: top;
+}
+
+.card__avatar {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: calc(60% - 57px);
+}
+
+.card__avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.card__title {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.card__subtitle {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--submain-color);
+}
+@media (min-width: 1500px) {
+  .mision,
+  .vision {
+    width: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nosotros-banner {
+    height: 50vh;
+    background-image: url(/assets/webp/ubicacion\ laboratorio\ clinico\ betty\ mercado\ niebles.png);
+    background-position: left;
+  }
+  .mision,
+  .vision {
+    height: 20%;
+    width: 90%;
+  }
+  .conten-mision-vision {
+    flex-direction: column;
+  }
+}

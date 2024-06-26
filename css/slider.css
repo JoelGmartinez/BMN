@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+}
+.conten-slider {
+  width: 100% !important;
+  height: 85vh !important;
+  margin-top: 70px !important;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.slider {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  margin-left: -100%;
+}
+
+.slider-sec {
+  width: 100%;
+}
+.slide4 h1{
+ display: none;
+}
+.slider-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.slide-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+.slide-btn svg {
+  color: #00a9e3;
+}
+
+.slide-btn:hover{
+  background-color: #00a9e3;
+
+}
+.slide-btn svg:hover {
+  color: #fff;
+}
+
+.btn-right {
+  right: 10px;
+}
+.btn-left {
+  left: 10px;
+}
+
+.banner2{
+  height: 90vh;
+  width: 100%;
+  background-image: url(/assets/webp/bmn-laboratorio-adultos-mayores.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+
+@media (max-width:800px){
+  .conten-slider {
+    height: 60vh !important;
+
+  }
+
+  .conten-slider{
+    display: none;
+  }
+  .banner2{
+    height: 60vh;
+  }
+
+}
+
+@media (min-width:800px){
+  .banner2{
+    display: none;
+  }
+
+}
+
+@media (max-width:500px){
+  .banner2{
+    height: 50vh;
+  }
+
+}
