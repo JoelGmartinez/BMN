@@ -10,3 +10,14 @@ bsubmenu.addEventListener("click", () => {
     bsubmenu.setAttribute("aria-label", "Abrir menú");
   }
 });
+
+document.addEventListener("click", (event) => {
+  if (
+    !navMenu.contains(event.target) && 
+    !bsubmenu.contains(event.target) && 
+    navMenu.classList.contains("nav-menu_visible")
+  ) {
+    navMenu.classList.remove("nav-menu_visible");
+    bsubmenu.setAttribute("aria-label", "Abrir menú");
+  }
+});
