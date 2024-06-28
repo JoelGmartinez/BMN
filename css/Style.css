@@ -447,6 +447,10 @@ body {
     text-align: center !important;
     font-size: 30px;
   }
+
+  .atencion br{
+    display: none;
+  }
 }
 
 @media (max-width: 300px) {
