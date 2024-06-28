@@ -131,6 +131,10 @@
   background-color: var(--primar-color);
   
 }
+.reseña span{
+  color: var(--secundari-color);
+  
+}
 .reseña-img{
   width: 400px;
   height: 370px;

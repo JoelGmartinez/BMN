@@ -1,3 +1,9 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .nav {
   display: flex;
   align-items: center;
@@ -8,11 +14,11 @@
   width: 100%;
   top: 0;
   left: 0;
-  padding: 0px 30px;
+  padding: 0px 40px;
   z-index: 100;
 }
 .logo img {
-  width: 200px;
+  width: 180px;
 }
 
 .nav-menu {
@@ -85,7 +91,12 @@
 .b-submenu i img {
   width: 30px;
 }
+@media (min-width: 1700px) {
+  .nav {
+    padding: 0px 200px;
 
+  }
+}
 /* submenú - menú Responsive*/
 @media (max-width: 780px) {
   .nav {
@@ -137,6 +148,11 @@
     outline: none;
   }
 }
+@media (max-width: 300px){
+  .nav{
+    padding: 0px 0px;
+  }
+}
 @media (max-width: 200px) {
   .logo img {
     width: 100px !important;
@@ -149,5 +165,5 @@
     margin-top: 10px;
     padding: 10px 30px;
 
-}
+  }
 }
