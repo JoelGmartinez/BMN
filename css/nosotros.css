@@ -378,7 +378,8 @@
 @media (max-width: 800px) {
   .nosotros-banner {
     height: 50vh;
-    background-image: url(/assets/webp/ubicacion\ laboratorio\ clinico\ betty\ mercado\ niebles.png);
+    /* background-image: url(/assets/webp/ubicacion\ laboratorio\ clinico\ betty\ mercado\ niebles.png); */
+    background-image: url(/assets/webp/laboratorio\ clinico\ betty\ mercado\ niebles.webp);
     background-position: left;
   }
   .mision,
