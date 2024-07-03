@@ -73,7 +73,8 @@
   border-radius: 20px;
 }
 .beauderm a:hover {
-  background-color: #ffb5b5;
+  background-color: #ffdded;
+  color: var(--secundari-color);
 }
 
 /*submenú*/
