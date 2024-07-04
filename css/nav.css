@@ -55,6 +55,9 @@
 .agendar:hover {
   background-color: var(--secundari-color);
 }
+.agendar2:hover{
+  background-color: #efca3c !important;
+}
 
 .nav-link {
   color: var(--secundari-color);

@@ -160,6 +160,12 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.content-sec2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .galeria {
   display: flex;
@@ -207,6 +213,17 @@ body {
 
 .imgh:hover .hoverg {
   transform: scale(1);
+}
+.content-sec2 > a{
+  margin-top: 20px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: 2px solid var(--secundari-color);
+  background-color: var(--primar-color);
+  color: var(--secundari-color);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer
 }
 
 /* Medicina Estética */
@@ -257,7 +274,7 @@ body {
 .text-estetica p {
   margin: 15px 0px;
 }
-.text-estetica a {
+.text-estetica a{
   padding: 10px 50px;
   border-radius: 20px;
   border: 2px solid var(--secundari-color);
