@@ -2,20 +2,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: var(--primar-color);
   height: 70px;
-  position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
-  padding: 0px 40px;
-  z-index: 100;
 }
 .logo img {
   width: 180px;
@@ -61,9 +61,9 @@
 
 .nav-link {
   color: var(--secundari-color);
-  font-family: var(--text-secundario);
+  font-family: var(--primar-color);
   font-size: 15px;
-  font-weight: 700 !important;
+  font-weight: 600;
   text-decoration: none;
   padding: 8px 10px;
   margin: 5px 10px;
@@ -74,10 +74,6 @@
   background-color: var(--secundari-color);
   color: var(--primar-color);
   border-radius: 20px;
-}
-.beauderm a:hover {
-  background-color: #ffdded;
-  color: var(--secundari-color);
 }
 
 /*submenú*/
@@ -105,7 +101,7 @@
 @media (max-width: 780px) {
   .nav {
     justify-content: space-between;
-    padding-left: 20px;
+    padding: 0px 20px;
   }
 
   .nav-menu {
@@ -114,7 +110,7 @@
     margin: 0;
     background-color: #ffffff;
     position: fixed;
-    top: 68px;
+    top: 69px;
     width: 100%;
     padding: 10px 0;
     height: calc(45% - 10px);

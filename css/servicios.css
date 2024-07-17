@@ -1,0 +1,112 @@
+/*Banner*/
+.servicios-banner {
+    height: 70vh;
+    width: 100%;
+    background: linear-gradient(to right, #fffde400, #0059a77e), url(/assets/webp/Laboratorio-clinico-bmn.png);
+    background-position: 0% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .servicios-banner h2{
+    color: #fff;
+    font-size: 3.1rem;
+  }
+  .servicios-banner p{
+    color: #fff;
+    font-size: 1rem;
+  }
+  .card1-servicios{
+    margin-top: 50px;
+  }
+
+  .p-servicios{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgb(249, 252, 255);
+  }
+  .p-servicios-img{
+    width: 400px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+
+  }
+  .p-servicios-img img{
+    width:100%;
+    transition: all ease .5s;
+  }
+  .p-servicios-img img:hover{
+    scale: 1.05;
+  }
+  .p-servicios-p{
+    width: 350px;
+  }
+
+  .p-servicios-p h2{
+    font-family: var(--text-principal);
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--secundari-color);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .p-servicios-p p{
+    font-family: var(--text-principal);
+    font-size: 15px;
+    text-align: justify;
+  }
+  .sec-brca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .brca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    gap: 20px;
+  }
+  .brca img{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all ease .5s;
+  }
+  .brca img:hover{
+    scale: 1.02;
+  }
+
+  @media(max-width: 900px){
+    .p-servicios{
+      width: 90%;
+    }
+  }
+
+  @media(max-width: 730px){
+    .p-servicios{
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    .p-servicios-img{
+      width: 80%;
+    }
+    .p-servicios-p{
+      width: 70%;
+    }
+  }

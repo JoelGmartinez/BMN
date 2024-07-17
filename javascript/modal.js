@@ -34,3 +34,4 @@ window.addEventListener("click", (e) => {
     closeModal(e.target);
   }
 });
+
