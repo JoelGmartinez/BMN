@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Banner */
+.banner {
+  height: 90vh;
+  width: 100%;
+  background: linear-gradient(to right, #fffde400, #0059a77e),
+    url(/assets/webp/Laboratorio-clinico-bmn.png);
+  
+  background-position: 0% 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
+
+.banner .titulo-banner {
+  width: 55%;
+  min-height: 200px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 40%;
+}
+
+.banner > .titulo-banner > h1 {
+  border-radius: 20px 0px 0px 20px;
+  color: var(--primar-color) !important;
+  background-color: #00aae377;
+  padding: 10px;
+  font-family: var(--text-principal);
+  font-size: 3rem;
+}
+
+.banner > .titulo-banner > h2 {
+  color: var(--primar-color);
+  padding: 10px;
+  font-family: var(--text-principal);
+  font-size: 2rem;
+}
+
+.titulo-banner .agendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primar-color);
+  border-radius: 30px;
+  width: 170px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 0;
+  transition: all ease 0.3s;
+}
+
+.titulo-banner .agendar {
+  background-color: #00d757;
+}
+
+.titulo-banner .agendar:hover {
+  background-color: var(--primar-color);
+  color: var(--secundari-color);
+}
+
+.banner2 {
+  height: 90vh;
+  width: 100%;
+  background-image: url(/assets/webp/bmn-laboratorio-adultos-mayores.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .banner .titulo-banner {
+    width: 65%;
+  }
+}
+@media (max-width: 900px) {
+  .wave {
+    bottom: 0%;
+  }
+  .banner .titulo-banner {
+    width: 75%;
+    bottom: 35%;
+  }
+  .banner > .titulo-banner > h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner {
+    display: none;
+  }
+  .banner2 {
+    display: block;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner2 {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 300px) {
+  .banner2 {
+    height: 40vh;
+  }
+}

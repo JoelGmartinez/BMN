@@ -1,0 +1,579 @@
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #9987ae;
+  --sb-size: 14px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  /*sheq*/
+  --primar-sheq-color: #9987ae;
+  --secundari-sheq-color: #90bc76;
+  --tercer-sheq-color: #efca3c;
+}
+/*Nav*/
+.nav-sheq {
+  height: 75px;
+}
+.nav-menu{
+  gap: -5px;
+}
+.logo-sheq img {
+  width: 130px;
+}
+.link-sheq {
+  color: var(--primar-sheq-color);
+  font-size: 1.1rem;
+}
+.link-sheq:hover {
+  background-color: var(--secundari-sheq-color);
+}
+/*banner*/
+.sheq-banner {
+  height: 70vh;
+  width: 100%;
+  background: linear-gradient(to right, #90bc7641, #90bc7646), url(/assets/sheq/banner-sheq.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  align-items: center;
+}
+.wave{
+  position: absolute;
+  width: 100%;
+  bottom: 15%;
+}
+/*Contacto*/
+.bg-contact-sheq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primar-sheq-color);
+  color: var(--primar-color);
+  min-height: 180px;
+  padding: 10px;
+}
+.contact-sheq {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100% !important;
+  text-align: center;
+}
+
+/* .sheq-banner > h2 {
+  font-size: 2.7rem;
+  color: var(--tercer-sheq-color);
+  border-radius: 20px;
+  background-color: #9987aed6;
+  padding: 10px;
+  font-family: var(--text-principal);
+  width: 70%;
+  text-align: center;
+} */
+
+.sheq-banner > h2 {
+  color: var(--tercer-sheq-color);
+  border-radius: 20px;
+  background-color: #9987aed6;
+  padding: 10px;
+  font-family: var(--text-principal);
+  width: 40%;
+  margin-left: 5%;
+}
+
+.contact-sheq h1, h2 {
+  font-size: 2.5rem;
+  font-family: var(--text-principal);
+  
+}
+.contact-sheq h2 {
+  margin-bottom: 10px;
+  font-size: 2.2rem;
+}
+
+.contact-sheq a {
+  margin-top: 10px;
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: 2px solid var(--primar-color);
+  background-color: var(--tercer-sheq-color);
+  color: var(--primar-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all ease 0.5s;
+}
+.contact-sheq a:hover {
+  background-color: #00d757;
+}
+.contact-sheq .a-contact-2:hover {
+  background-color: var(--secundari-sheq-color);
+}
+
+/*Sobre Nosotro*/
+.sobre-sheq {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 40px;
+  gap: 20px;
+}
+.reseña-sheq {
+  width: 500px;
+  min-height: 250px;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+  box-shadow: 0 0 5px var(--primar-sheq-color);
+  font-size: 0.9rem;
+  background-color: var(--primar-color);
+
+}
+.reseña-sheq-img {
+  width: 400px;
+  min-height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.reseña-sheq-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.reseña-sheq h2 {
+  font-size: 2rem;
+  color: var(--primar-sheq-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*Servicios*/
+.nuestros-servicios {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+
+.nuestros-servicios .text-servicios p {
+  max-width: 800px;
+}
+.nuestros-servicios .text-servicios h2 {
+  font-size: 2rem;
+  color: var(--tercer-sheq-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.conten-servicios {
+  gap: 20px;
+  margin: 10px;
+  margin-top: 30px;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.conten-servicios > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 15px;
+  min-height: 110px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all ease 0.3s;
+}
+
+.conten-servicios > div > i {
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 3px;
+  background-color: #806c95;
+}
+.conten-servicios > div:hover{
+  scale: 1.02;
+}
+.conten-servicios > div:nth-child(3n + 2) {
+  background-color: #90bc76;
+  color: var(--primar-color);
+  box-shadow: 0 0 5px var(--secundari-sheq-color);
+  border: solid 1px #699c4b;
+}
+.conten-servicios > .servicio-3,
+.servicio-4 {
+  color: var(--primar-color);
+  box-shadow: 0 0 5px var(--tercer-sheq-color);
+  background-color: var(--tercer-sheq-color);
+  border: solid 1px #e7a919;
+}
+.servicio-1 {
+  background-color: var(--primar-sheq-color);
+  color: var(--primar-color);
+  box-shadow: 0 0 5px var(--primar-sheq-color);
+  grid-column: 1/3;
+  border: solid 1px #806c95;
+}
+/*Personal*/
+.personal-sheq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 480px;
+  width: 100%;
+}
+.personal-sheq h2 {
+  font-size: 2rem;
+  color: var(--secundari-sheq-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content-card {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.card-hz {
+  position: relative;
+  width: 600px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 0px !important;
+  background: var(--primar-color);
+  background-image: url(/assets/sheq/favicon.webp);
+  background-position: 130% 200%;
+  background-repeat: no-repeat;
+  background-size: 180px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: all ease 0.3s;
+  margin: 0;
+}
+.card-2 {
+  position: relative;
+  width: 600px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+  background: var(--primar-color);
+  background-image: url(/assets/sheq/favicon.webp);
+  background-position: 130% 180%;
+  background-repeat: no-repeat;
+  background-size: 180px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: all ease 0.3s;
+}
+.card-hz:hover,
+.card-2:hover {
+  scale: 1.02;
+}
+.card-2 .persona-1 h3, .persona-2 h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: var(--primar-sheq-color);
+}
+.card-2 .persona-1 p, .persona-2 p {
+    font-size: 13px;
+}
+
+.card-hz__img {
+  height: 100%;
+  width: 50%;
+  object-position: 50% 10%;
+  
+}
+
+.card-hz__img img {
+  height: 100%;
+  width: 100%;
+  object-position: 50% 10%;
+  object-fit: cover;
+}
+
+.card-hz__avatar {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+}
+
+.card-hz__avatar img {
+  width: 80%;
+  height: 80%;
+  
+}
+.text-personal-hz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
+.card-hz__title {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.card-hz__subtitle {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--submain-color);
+  text-align: center;
+}
+
+/*footer*/
+.footer__soporte h3 {
+    color: var(--primar-sheq-color);
+  }
+.footer__soporte ul li i {
+    color: var(--tercer-sheq-color);
+  }
+.footer__container {
+  padding: 30px 30px 0px 30px;
+}
+.i-redes {
+  height: 50px;
+}
+.iconos a i {
+    color: var(--secundari-sheq-color);
+    font-size: 28px;
+  }
+.copyright {
+    background-color: var(--primar-sheq-color);
+    color: var(--primar-color);
+  }
+  .span__span {
+    color: var(--tercer-sheq-color);
+  }
+@media (max-width: 1050px){
+    .card-2{
+        width: 550px;
+    }
+}
+
+@media (max-width: 1000px){
+    .reseña-sheq{
+        width: 600px ;
+    }
+    .reseña-sheq-img{
+        width: 90% ;
+    }
+    .reseña-sheq-img img{
+        width: 500px;
+    }
+    .conten-servicios{
+        width: 100%;
+    }
+    .content-card{
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+    .card-hz, .card-2{
+        width: 80%;
+    }
+    .sobre-sheq {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sheq-banner > h2 {
+      font-size: 2.1rem;
+    }
+
+}
+
+@media (max-width: 800px){
+    .conten-servicios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .conten-servicios > div {
+        width: 90%;
+    }
+    .sheq-banner > h2 {
+      font-size: 1.8rem;
+      width: 50%;
+    }
+
+}
+@media (max-width: 700px){
+    .reseña-sheq{
+        width: 90%;
+        margin: 0;
+    }
+    .reseña-sheq-img{
+        width: 95%;
+        min-height: 40px !important;
+    }
+    .reseña-sheq-img img{
+        width: 90%;
+    }
+    .card-hz {
+        flex-direction: column;
+        width: 280px;
+        min-height: 420px !important;
+        background-position: 190% 140%;
+    }
+    .text-personal-hz {
+        width: 90%;
+      }
+    .card-hz__img {
+        height: 190px;
+        width: 100%;
+      }
+      
+      .card-hz__img img {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        
+      }
+      .card-hz__avatar {
+        top: calc(38% - 0px);
+      }
+      .card-2{
+        gap: 20px;
+        background:none;
+    }
+    .wave{
+      position: absolute;
+      width: 100%;
+      bottom: 19%;
+    }
+    .sheq-banner > h2 {
+      font-size: 2.2rem;
+      
+    }
+    .sheq-banner {
+      justify-content: center;
+      
+    }
+    .sheq-banner > h2 {
+      font-size: 1.7rem;
+      width: 80%;
+      text-align: center;
+      
+    }
+}
+@media (max-width: 500px){
+  .footer__soporte-sheq{
+    margin-left: 60px ; 
+    
+  }
+    
+}
+@media (max-width: 400px){
+  .footer__soporte-sheq{
+    margin-left: 0px; 
+  }
+    .sobre-sheq{
+        padding: 10px;
+    }
+    .reseña-sheq{
+        width: 95%;
+    }
+    
+    .reseña-sheq-img img{
+        width: 100%;
+        height: auto;
+    }
+    .card-hz{
+        height:400px !important;
+        
+     }
+    .card-hz, .card-2{
+        width: 90%;
+        
+    }
+    .bg-contact-sheq{
+      padding: 0;
+    }
+    .contact-sheq h1 {
+      font-size: 2rem;
+    }
+    .contact-sheq h2 {
+      margin-bottom: 5px;
+      font-size: 2rem;
+    }
+
+    .sheq-banner > h2 {
+      /* display: none; */
+      font-size: 1.4rem;
+    }
+    .conten-servicios > div > i {
+      display: none;
+    }
+}
+
+@media (max-width: 300px){
+    .text-contact-sheq h1{
+        font-size: 2rem;
+    }
+
+      
+}

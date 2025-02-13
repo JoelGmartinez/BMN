@@ -1,0 +1,171 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--primar-color);
+  height: 70px;
+  width: 100%;
+}
+.logo img {
+  width: 180px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin: 0 5px;
+  width: max-content;
+}
+
+.nav-menu-item .agendar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primar-color);
+  
+  border-radius: 30px;
+  width: 130px;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 0;
+  transition: all ease .3s;
+}
+.sec1 .agendar, .nav-menu-item .agendar {
+  background-color: #00d757;
+}
+.agendar:hover {
+  background-color: var(--secundari-color);
+}
+.agendar2:hover{
+  background-color: #efca3c !important;
+}
+
+.nav-link {
+  color: var(--secundari-color);
+  font-family: var(--primar-color);
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 10px;
+  margin: 5px 10px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+
+.nav-link:hover {
+  background-color: var(--secundari-color);
+  color: var(--primar-color);
+  
+}
+
+/*submenú*/
+.b-submenu {
+  color: #034574;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 10px;
+  line-height: 0px;
+  cursor: pointer;
+  display: none;
+}
+
+.b-submenu i img {
+  width: 30px;
+}
+@media (min-width: 1700px) {
+  .nav {
+    padding: 0px 200px;
+
+  }
+}
+/* submenú - menú Responsive*/
+@media (max-width: 780px) {
+  .nav {
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+    background-color: #ffffff;
+    position: fixed;
+    top: 69px;
+    width: 100%;
+    padding: 10px 0;
+    height: calc(45% - 10px);
+    overflow-y: auto;
+    left: 100%;
+    overflow: hidden;
+    transition: left 0.5s;
+    
+  }
+
+  .nav-menu-item, .nav-menu-item a {
+    line-height: 40px;
+    width: 100% !important;
+    justify-content: flex-start;
+  }
+  .nav-menu-item .agendar{
+    width: 130px !important;
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: none;
+    color: #83c5f7;
+  }
+
+  .b-submenu {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .b-submenu:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+@media (max-width: 300px){
+  .nav{
+    padding: 0px 0px;
+  }
+}
+@media (max-width: 200px) {
+  .logo img {
+    width: 100px !important;
+  }
+  .footer__tenic img {
+    width: 100%;
+  }
+
+  .contact-nosotros a {
+    margin-top: 10px;
+    padding: 10px 30px;
+
+  }
+}

@@ -1,0 +1,11 @@
+    
+    RewriteBase/
+    RewriteEngine On 
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^/.]+)$ $1.php [L]
+    
+    RewriteCond %{THE_REQUEST} Sheq.php [NC]
+    RewriteRule ^Sheq.php$ Sheq [R=301,L]
+    
+    RewriteCond %{THE_REQUEST} index.php [NC]
+    RewriteRule ^index.php$ / [R=301,L]
