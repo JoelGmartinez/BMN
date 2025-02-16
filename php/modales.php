@@ -297,7 +297,37 @@
                 </ul>
             </div>
             <div class="modal-img">
-                <img title="Prueba de Diabetes" src="/assets/webp/Monitorea-tu-diabetes-BMN.webp" alt="Mantente al dia con tu diabetes en el laboratorio clínico Betty Mercado Niebles en Santa Marta">
+                <img title="Fit Check" src="/assets/webp/Monitorea-tu-diabetes-BMN.webp" alt="Mantente al dia con tu diabetes en el laboratorio clínico Betty Mercado Niebles en Santa Marta">
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal11">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <div>
+                <h2>¡Fit Check!</h2>
+                <p>Mantente al día con tu salud y la de tu familia</p>
+                <br>
+                <ul>
+                    <p>Examenes Recomendados</p>
+                    <li><i class="fa-regular fa-circle-check"></i>Hemograma</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Perfil lipídico</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Glisemia</li>
+                    <li><i class="fa-regular fa-circle-check"></i>BUN</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Creatinina</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Acido Úrico</li>
+                    <li><i class="fa-regular fa-circle-check"></i>GOT - CPT</li>
+                    <li><i class="fa-regular fa-circle-check"></i>CPK</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Parcial de Orina</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Proteina C Reactiva</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Testosterona Total (Hombres)</li>
+                    <li><i class="fa-regular fa-circle-check"></i>TSH</li>
+                    <li><i class="fa-regular fa-circle-check"></i>T4 Libre</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Vitamina D</li>
+                </ul>
+            </div>
+            <div class="modal-img">
+                <img title="Fit Check" src="assets/webp/chequeo-fit.webp" alt="¿Listo para comenzar tu rutina de ejercicios? Antes de dar el primer paso, asegúrate de conocer tu estado de salud visita el laboratorio clínico Betty Mercado Niebles en Santa Marta. ">
             </div>
         </div>
     </div>

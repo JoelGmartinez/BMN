@@ -662,3 +662,11 @@ body {
     font-size: 1rem;
   }
 }
+
+.google {
+  padding: 10px;
+  overflow: hidden;
+  height: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

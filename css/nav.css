@@ -17,6 +17,7 @@
   height: 70px;
   width: 100%;
 }
+
 .logo img {
   width: 180px;
 }
@@ -71,10 +72,10 @@
   transition: all 0.3s ease;
 }
 
-
 .nav-link:hover {
   background-color: var(--secundari-color);
   color: var(--primar-color);
+  transition: .5s;
   
 }
 

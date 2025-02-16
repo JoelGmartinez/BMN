@@ -307,6 +307,11 @@
       </div>
       <!-- Estructura del modal -->
       </section>
+      <section class="google">
+        <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-b400fa26-7045-4060-bb72-c59a16d51781" data-elfsight-app-lazy></div>
+      </section>
       <section class="bg-estetica">
         <div class="content-estetica">
             <div class="estetica">
