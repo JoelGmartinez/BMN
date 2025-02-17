@@ -146,7 +146,7 @@
                 src="/assets/webp/Perfil M.webp"
                 alt="Chequeos clinicos de la mujer en BMN Laboratorio clinico"
               />
-              <a href="" class="modal-link" data-modal="modal3">
+              <a href="" class="modal-link" data-modal="modal8">
                 <div class="hoverg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -206,111 +206,15 @@
           <a href="Servicios.html">Ver Más</a>
         </div>
       </section>
-      
-      <section class="modales">
-        <div class="modal" id="modal1">
-          <div class="modal-content">
-            <span class="close-button" id="closeModal">&times;</span>
-            <div>
-              <h2>¡Chequeo General!</h2>
-              <p>Mantente al día con tu salud y la de tu familia</p>
-              <br>
-              <ul>
-                <p>Chequeo del Niño y Adolecente</p>
-                <li><i class="fa-regular fa-circle-check"></i>Hemograma</li>
-                <li><i class="fa-regular fa-circle-check"></i>Glicemia</li>
-                <li><i class="fa-regular fa-circle-check"></i>Parcial de Orina</li>
-                <li><i class="fa-regular fa-circle-check"></i>Coprologico</li>
-              </ul>
-              <ul>
-                <p>Chequeo del Adulto</p>
-                <li><i class="fa-regular fa-circle-check"></i>Hemograma</li>
-                <li><i class="fa-regular fa-circle-check"></i>Glicemia</li>
-                <li><i class="fa-regular fa-circle-check"></i>Parcial de Orina</li>
-                <li><i class="fa-regular fa-circle-check"></i>Perfil Lipídico</li>
-                <li><i class="fa-regular fa-circle-check"></i>Acido Urico</li>
-                <li><i class="fa-regular fa-circle-check"></i>TSH</li>
-                <li><i class="fa-regular fa-circle-check"></i>Creatinina</li>
-                <li><i class="fa-regular fa-circle-check"></i>Vitamina D</li>
-                <li><i class="fa-regular fa-circle-check"></i>GGT</li>
-              </ul>
-            </div>
-            <div class="modal-img">
-              <img title="Chequeos Generales en el BMN" src="/assets/webp/Chequeos Generales en el BMN.png" alt="Realiza tus chequeos medicos generales con el mejor equipo de salud en santa marta" />
-            </div>
-          </div>
-        </div>
 
-        <div class="modal" id="modal2">
-          <div class="modal-content">
-            <span class="close-button" id="closeModal">&times;</span>
-            <div>
-              <h2>¡Chequeo de Riñones!</h2>
-              <p>Mantente al día con tu salud y la de tu familia</p>
-              <br>
-              <ul>
-                <p>Examenes Recomendados</p>
-                <li><i class="fa-regular fa-circle-check"></i>Creatinina</li>
-                <li><i class="fa-regular fa-circle-check"></i>Creatinina en Orina</li>
-                <li><i class="fa-regular fa-circle-check"></i>Parcial de Orina</li>
-                <li><i class="fa-regular fa-circle-check"></i>BUN</li>
-                <li><i class="fa-regular fa-circle-check"></i>Microalbuminuria</li>
-                <li><i class="fa-regular fa-circle-check"></i>Fósforo</li>
-                <li><i class="fa-regular fa-circle-check"></i>Potasio</li>
-                <li><i class="fa-regular fa-circle-check"></i>Albumina</li>
-                <li><i class="fa-regular fa-circle-check"></i>Urea</li>
-              </ul>
-            </div>
-            <div class="modal-img">
-              <img title="Examenes renales en el laboratorio clinico BMN"
-                src="/assets/webp/Chequeo de riñones en el laboratorio clinico BMN.png"
-                alt="Chequea el funcionamiento de tus riñones en el laboratorio clinico BMN en Santa Marta"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="modal" id="modal3">
-          <div class="modal-content">
-            <span class="close-button" id="closeModal">&times;</span>
-            <div>
-              <h2>¡Chequeo De La Mujer!</h2>
-              <p>Mantente al día con tu salud y la de tu familia</p>
-              <br>
-              <ul>
-                <p>Examenes Recomendados</p>
-                <li><i class="fa-regular fa-circle-check"></i>Perfil Lipídico</li>
-                <li><i class="fa-regular fa-circle-check"></i>Hemograma</li>
-                <li><i class="fa-regular fa-circle-check"></i>Acido Urico</li>
-                <li><i class="fa-regular fa-circle-check"></i>Vitamina D</li>
-                <li><i class="fa-regular fa-circle-check"></i>CGT</li>
-                <li><i class="fa-regular fa-circle-check"></i>Creatinina</li>
-                <li><i class="fa-regular fa-circle-check"></i>Glicemia</li>
-                <li><i class="fa-regular fa-circle-check"></i>TSH</li>
-                <li><i class="fa-regular fa-circle-check"></i>Parcial de Orina</li>      
-              </ul>
-              <br>
-              <ul>
-                <p>Perfil M Plus</p>
-                <li><i class="fa-regular fa-circle-check"></i>Prolactina</li>
-                <li><i class="fa-regular fa-circle-check"></i>LH</li>
-                <li><i class="fa-regular fa-circle-check"></i>FSH</li>
-                <li><i class="fa-regular fa-circle-check"></i>Estradiol</li>
-                <li><i class="fa-regular fa-circle-check"></i>Progesterona</li>
-              </ul>
-            </div>
-            <div class="modal-img">
-              <img title="Examenes clínicos para la mujer" src="/assets/webp/Perfil M.webp" alt="Chequeos clinicos de la mujer en BMN Laboratorio clinico">
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php include("../bmn.php/php/modales.php"); ?>
       <!-- Estructura del modal -->
+
       </section>
       <section class="google">
         <!-- Elfsight Google Reviews | Untitled Google Reviews -->
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
-        <div class="elfsight-app-b400fa26-7045-4060-bb72-c59a16d51781" data-elfsight-app-lazy></div>
+        <div class="elfsight-app-0088c6ff-c81c-4cd4-b3c6-b1e9d61da8fe" data-elfsight-app-lazy></div>
       </section>
       <section class="bg-estetica">
         <div class="content-estetica">

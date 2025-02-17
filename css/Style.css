@@ -666,7 +666,15 @@ body {
 .google {
   padding: 10px;
   overflow: hidden;
-  height: 320px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  height: 330px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+
+  .google {
+    height: 400px;
+
+  }
 }
