@@ -38,24 +38,13 @@
             <a href="http://190.85.45.218/baxweb/Principal/PRINCIPAL.php">Ver Resultados</a>
           </div>
         </section>
-        <section class="">
-          <div class="p-servicios">
-            <div class="p-servicios-img">
-              <img title="Doctora Betty Mercado Niebles Bacterióloga" src="/assets/webp/Equipo-de-confianza.png" alt="Doctora Betty Mercado Niebles Bacterióloga Gerente del BMN">
-            </div>
-            <div class="p-servicios-p">
-                <h2>Compromiso y Dedicación</h2>
-                <p>El equipo de profesionales del Laboratorio Clínico Betty Mercado Niebles se destaca por su dedicación y compromiso, avalados por años de experiencia en el campo. <br><br> Trabajamos para brindar seguridad y confianza mediante un servicio de alta calidad para todos nuestros usuarios.</p>
-            </div>
-          </div>
-        </section>
-        
+
         <section class="sec2 card1-servicios">
           <div class="content-sec2">
             <h2 class="titulo">Portafolio de Servicios</h2>
             <div class="galeria">
               <div class="imgh">
-                <img title="Chequeos Generales en el BMN" src="/assets/webp/Chequeos Generales en el BMN.png" alt="Realiza tus chequeos medicos generales con el mejor equipo de salud en santa marta" />
+                <img title="Chequeos Generales en el BMN" src="/assets/webp/Chequeos Generales en el BMN.webp" alt="Realiza tus chequeos medicos generales con el mejor equipo de salud en santa marta" />
                 Enlace que activa el modal
                 <a href="" class="modal-link" data-modal="modal1">
                   <div class="hoverg">
@@ -85,7 +74,7 @@
               </div>
               <div class="imgh">
                 <img title="Examenes renales en el laboratorio clinico BMN"
-                  src="/assets/webp/Chequeo de riñones en el laboratorio clinico BMN.png"
+                  src="/assets/webp/Chequeo de riñones en el laboratorio clinico BMN.webp"
                   alt="Chequea el funcionamiento de tus riñones en el laboratorio clinico BMN en Santa Marta"
                 />
                 <a href="" class="modal-link" data-modal="modal2">
@@ -207,7 +196,7 @@
               </div>
               <div class="imgh">
                 <img title="Examnes clínicos para el adulto mayor"
-                  src="/assets/webp/bmn-laboratorio-adultos-mayores.png"
+                  src="/assets/webp/bmn-laboratorio-adultos-mayores.webp"
                   alt="Chequeo del adulto mayor"
                 />
                 <a href="" class="modal-link" data-modal="modal6">
@@ -388,6 +377,29 @@
         </section> 
 
         <?php include("../bmn.php/php/modales.php"); ?>
+
+
+        <section class="bg-resultadosweb">
+          <div class="resultadosweb">
+            <div class="text-resultadosweb">
+              <h2>¡Pregunta por el examen que necesites!</h2>
+              <p></p>
+            </div>
+            <a href="https://wa.me/573008897527">Whatsapp</a>
+          </div>
+        </section>
+        
+        <section class="">
+          <div class="p-servicios">
+            <div class="p-servicios-img">
+              <img title="Doctora Betty Mercado Niebles Bacterióloga" src="/assets/webp/Equipo-de-confianza.webp" alt="Doctora Betty Mercado Niebles Bacterióloga Gerente del BMN, realizando examnes medicos">
+            </div>
+            <div class="p-servicios-p">
+                <h2>Compromiso y Dedicación</h2>
+                <p>El equipo de profesionales del Laboratorio Clínico Betty Mercado Niebles se destaca por su dedicación y compromiso, avalados por años de experiencia en el campo. <br><br> Trabajamos para brindar seguridad y confianza mediante un servicio de alta calidad para todos nuestros usuarios.</p>
+            </div>
+          </div>
+        </section>
 
         <section class="sec-brca">
           <div class="brca">

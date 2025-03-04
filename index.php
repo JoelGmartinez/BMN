@@ -9,15 +9,16 @@
     <!-- Información para las redes sociales -->
     <meta property="og:title" content="Laboratorio Clínico Betty Mercado Niebles">
     <meta property="og:description" content="Servicios de análisis clínicos precisos y confiables con resultados rápidos y honestos.">
-    <meta property="og:image" content="/assets/webp/logo-bmn-laboratirío-clinico.png">
-    <meta property="og:url" content="https://www.bmn.com.co/">
+    <meta property="og:image" content="/assets/webp/logo-bmn-laboratirío-clinico.webp">
+    <meta property="og:url" title="Laboratorio Clínico Betty mercado Niebles" content="https://www.bmn.com.co/">
+    <meta property="og:site_name" content="Laboratorio Clínico Betty Mercado Niebles">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Laboratorio Clínico Betty Mercado Niebles">
     <meta name="twitter:description" content="Servicios de análisis clínicos precisos y confiables con resultados rápidos y honestos.">
     <meta name="twitter:image" content="/assets/webp/logo-bmn-laboratirío-clinico.png">
     <!-- icono -->
     <link rel="shortcut icon" href="/assets/webp/Logo_BMN.webp" type="image/x-icon"/>
-    <title>BMN Laboratorio Clínico En Santa Marta - Profesionales de la salud</title>   
+    <title>BMN Laboratorio Clínico En Santa Marta - Exámenes Médicos</title>   
     <link rel="stylesheet" href="/css/Style.css"/>
     <link rel="stylesheet" href="/css/nav.css" />
     <link rel="stylesheet" href="/css/modal.css" />
@@ -25,6 +26,7 @@
     <link rel="stylesheet" href="/css/footer.css" />
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   </head>
   <body>   
     <?php include("../bmn.php/php/header.php"); ?>
@@ -32,13 +34,10 @@
       <section class="banner">
        <div class="titulo-banner">
         <h1>Laboratorio Clínico Betty Mercado Niebles</h1>
-        <h2>Profesionales de la salud de Santa Marta </h2>
+        <h2>Profesionales de la salud en Santa Marta </h2>
         <a title="Whatsapp Laboratorio Clínico Betty Mercado Niebles" href="https://api.whatsapp.com/send/?phone=573008897527&text=Hola+BMN+quisiera+información+sobre:&type=phone_number&app_absent=0" class="agendar nav-menu-link"><i class="fa-brands fa-whatsapp" style="font-size: 1.5rem; margin-right: 10px;"></i>Contacto</a>
        </div> 
       <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-8.80,54.62 C110.83,171.74 332.05,-3.44 500.00,49.85 L500.00,149.60 L-0.00,149.60 Z" style="stroke: none; fill: #00a9e3;"></path></svg></div>
-      </section>
-      <section class="banner2">
-        
       </section>
       <section class="bg-resultadosweb">
         <div class="resultadosweb">
@@ -52,7 +51,7 @@
       <section class="sec1">
         <div class="conten1">
           <div class="imagesec1">
-            <img title="Equipo Profesional del laboratorio clínico Betty Mercado Niebles" src="/assets/webp/equipo-BMN-laboratorio-clinico.png" alt="Equipo BMN laboratorio clínico en santa marta"/>
+            <img title="Equipo Profesional del laboratorio clínico Betty Mercado Niebles" loading="lazy" src="/assets/webp/Equipo BMN Laboratorio Clínico en Santa Marta.webp" alt="Equipo BMN laboratorio clínico en santa marta"/>
           </div>
           
           <div class="conten-textos">
@@ -81,7 +80,7 @@
           <h2 class="titulo">Servicios</h2>
           <div class="galeria">
             <div class="imgh">
-              <img title="Chequeos Generales en el BMN" src="/assets/webp/Chequeos Generales en el BMN.png" alt="Realiza tus chequeos medicos generales con el mejor equipo de salud en santa marta" />
+              <img title="Chequeos Generales en el BMN" src="/assets/webp/Chequeos Generales en el BMN.webp" alt="Realiza tus chequeos medicos generales con el mejor equipo de salud en santa marta" />
               <!-- Enlace que activa el modal -->
               <a href="" class="modal-link" data-modal="modal1">
                 <div class="hoverg">
@@ -111,7 +110,7 @@
             </div>
             <div class="imgh">
               <img title="Examenes renales en el laboratorio clinico BMN"
-                src="/assets/webp/Chequeo de riñones en el laboratorio clinico BMN.png"
+                src="/assets/webp/Chequeo de riñones en el laboratorio clinico BMN.webp"
                 alt="Chequea el funcionamiento de tus riñones en el laboratorio clinico BMN en Santa Marta"
               />
               <a href="" class="modal-link" data-modal="modal2">
@@ -174,7 +173,7 @@
               </a>
             </div>
             <div class="imgh">
-              <img title="Medicina Estética Doctora Laura Quintero" src="/assets/webp/Medicina Estetica.png" alt="Servicio de Medicina Estética Doctora Laura Quintero" />
+              <img title="Medicina Estética Doctora Laura Quintero" src="/assets/webp/Medicina Estetica.webp" alt="Servicio de Medicina Estética Doctora Laura Quintero" />
               <a href="https://www.instagram.com/dra.lauraquinterom/" target="_blank">
                 <div class="hoverg">
                   <svg
@@ -203,7 +202,7 @@
             </div>
           </div>
           <br>
-          <a href="Servicios.html">Ver Más</a>
+          <a href="Servicios">Ver Más</a>
         </div>
       </section>
 
@@ -211,8 +210,17 @@
       <!-- Estructura del modal -->
 
       </section>
-      <section class="google">
-        <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+      <section class="bg-resultadosweb">
+          <div class="resultadosweb">
+            <div class="text-resultadosweb">
+              <h2>¡Pregunta por el examen que necesites!</h2>
+              <p></p>
+            </div>
+            <a href="https://wa.me/573008897527">Whatsapp</a>
+          </div>
+        </section>
+       <section class="google">
+       Elfsight Google Reviews | Untitled Google Reviews
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
         <div class="elfsight-app-0088c6ff-c81c-4cd4-b3c6-b1e9d61da8fe" data-elfsight-app-lazy></div>
       </section>
@@ -231,7 +239,7 @@
           </div>
           <div class="image">
             <a title="Instagram Dra Laura Quintero Medicina Estética" href="https://www.instagram.com/dra.lauraquinterom/" target="_blank">
-              <img title="Doctora Laura Quintero Medicina Estética" src="/assets/webp/beauderm estética.jpg" alt="Doctora Laura Quintero Medicina Estética" />
+              <img title="Doctora Laura Quintero Medicina Estética" loading="lazy" src="/assets/webp/beauderm estética.webp" alt="Doctora Laura Quintero Medicina Estética" />
             </a>          
           </div>
         </div>
@@ -249,7 +257,7 @@
           </div>
           <div class="image">
             <a title="Sheq" href="/Sheq.php">
-              <img title="Equipo Sheq - Salud Ocupacional Integral" src="/assets/sheq/equipo-shep-salud-ocupacional-integral.png" alt="Sheq - Salud Ocupacional Integral, Brindamos capacitación en salud ocupacional para empresas" />
+              <img title="Equipo Sheq - Salud Ocupacional Integral" loading="lazy" src="/assets/sheq/equipo-shep-salud-ocupacional-integral.webp" alt="Sheq - Salud Ocupacional Integral, Brindamos capacitación en salud ocupacional para empresas" />
             </a>          
           </div>
         </div>
@@ -259,21 +267,21 @@
         <h2 class="titulo">Alianzas</h2>
           <div class="slider-card">
             <div class="slider-cards">
-                <div class="card"><img title="Insecar" src="/assets/webp/logo-insecar-co.png" alt="Insecar"></div>
-                <div class="card"><img title="Cuidamos Tu Salud IPS" src="/assets/webp/logo-cuidamos-tu-salud-ips.png" alt="Cuidamos Tu Salud IPS"></div>
-                <div class="card"><img title="Quimico Clinico" src="/assets/webp/logo-quimico-clinico.png" alt="Quimico Clinico"></div>
-                <div class="card"><img title="Profamilia" src="/assets/webp/logo-nuevo-profamilia-verde.png" alt="Profamilia"></div>
-                <div class="card"><img title="Allianz" src="/assets/webp/allianz-logo.svg" alt="Allianz"></div>
-                <div class="card"><img title="MedFit" src="/assets/webp/logo-medfit.webp" alt="MedFit"></div>
-                <div class="card"><img title="Kinesis" src="/assets/webp/logo-kinesis.webp" alt="Kinesis"></div>
+                <div class="card"><img title="Insecar" loading="lazy" src="/assets/webp/logo-insecar-co.png" alt="Insecar"></div>
+                <div class="card"><img title="Cuidamos Tu Salud IPS" loading="lazy" src="/assets/webp/logo-cuidamos-tu-salud-ips.png" alt="Cuidamos Tu Salud IPS"></div>
+                <div class="card"><img title="Quimico Clinico" loading="lazy" src="/assets/webp/logo-quimico-clinico.png" alt="Quimico Clinico"></div>
+                <div class="card"><img title="Profamilia" loading="lazy" src="/assets/webp/logo-nuevo-profamilia-verde.png" alt="Profamilia"></div>
+                <div class="card"><img title="Allianz" loading="lazy" src="/assets/webp/allianz-logo.svg" alt="Allianz"></div>
+                <div class="card"><img title="MedFit" loading="lazy" src="/assets/webp/logo-medfit.webp" alt="MedFit"></div>
+                <div class="card"><img title="Kinesis" loading="lazy" src="/assets/webp/logo-kinesis.webp" alt="Kinesis"></div>
 
-                <div class="card"><img title="Insecar" src="/assets/webp/logo-insecar-co.png" alt="Insecar"></div>
-                <div class="card"><img title="Cuidamos Tu Salud IPS" src="/assets/webp/logo-cuidamos-tu-salud-ips.png" alt="Cuidamos Tu Salud IPS"></div>
-                <div class="card"><img title="Quimico Clinico" src="/assets/webp/logo-quimico-clinico.png" alt="Quimico Clinico"></div>
-                <div class="card"><img title="Profamilia" src="/assets/webp/logo-nuevo-profamilia-verde.png" alt="Profamilia"></div>
-                <div class="card"><img title="Allianz" src="/assets/webp/allianz-logo.svg" alt="Allianz"></div>
-                <div class="card"><img title="MedFit" src="/assets/webp/logo-medfit.webp" alt="MedFit"></div>
-                <div class="card"><img title="Kinesis" src="/assets/webp/logo-kinesis.webp" alt="Kinesis"></div>
+                <div class="card"><img title="Insecar" loading="lazy" src="/assets/webp/logo-insecar-co.png" alt="Insecar"></div>
+                <div class="card"><img title="Cuidamos Tu Salud IPS" loading="lazy" src="/assets/webp/logo-cuidamos-tu-salud-ips.png" alt="Cuidamos Tu Salud IPS"></div>
+                <div class="card"><img title="Quimico Clinico" loading="lazy" src="/assets/webp/logo-quimico-clinico.png" alt="Quimico Clinico"></div>
+                <div class="card"><img title="Profamilia" loading="lazy" src="/assets/webp/logo-nuevo-profamilia-verde.png" alt="Profamilia"></div>
+                <div class="card"><img title="Allianz" loading="lazy" src="/assets/webp/allianz-logo.svg" alt="Allianz"></div>
+                <div class="card"><img title="MedFit" loading="lazy" src="/assets/webp/logo-medfit.webp" alt="MedFit"></div>
+                <div class="card"><img title="Kinesis" loading="lazy" src="/assets/webp/logo-kinesis.webp" alt="Kinesis"></div>
 
             </div>
         </div>
@@ -285,5 +293,17 @@
 
     <script defer src="/javascript/menu.js"></script>
     <script defer src="/javascript/modal.js"></script>
+    <!-- Script para cargar el JSON -->
+    <script>
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                let script = document.createElement('script');
+                script.type = 'application/ld+json';
+                script.textContent = JSON.stringify(data);
+                document.head.appendChild(script);
+            })
+            .catch(error => console.error('Error cargando datos estructurados:', error));
+    </script>
   </body>
 </html>

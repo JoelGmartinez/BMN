@@ -1,6 +1,6 @@
 <header class="header">
       <nav class="nav">
-        <a title="Inicio" href="index.php" class="logo">
+        <a title="Inicio" href="/" class="logo">
           <img title="Logo BMN" src="/assets/webp/logo2-bmn-laboratirío-clinico.webp" alt="Logo del Laboratorio Clínico Betty Mercado Niebles"/>
         </a>
         <button class="b-submenu" aria-label="Abrir menú">
@@ -16,7 +16,7 @@
           </li>
 
           <li class="nav-menu-item">
-            <a title="Nosotros" href="Nosotros.php" class="nav-menu-link nav-link">Sobre Nosotros</a>
+            <a title="Nosotros" href="Nosotros" class="nav-menu-link nav-link">Sobre Nosotros</a>
           </li>
 
           <li class="nav-menu-item">

@@ -81,7 +81,7 @@
 
 /*submenú*/
 .b-submenu {
-  color: #034574;
+  color: var(--secundari-color);
   background: none;
   border: none;
   font-size: 30px;
@@ -94,6 +94,7 @@
 .b-submenu i img {
   width: 30px;
 }
+
 @media (min-width: 1700px) {
   .nav {
     padding: 0px 200px;

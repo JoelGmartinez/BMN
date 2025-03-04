@@ -13,6 +13,7 @@
                     <li><i class="fa-regular fa-circle-check"></i>Glicemia</li>
                     <li><i class="fa-regular fa-circle-check"></i>Parcial de Orina</li>
                     <li><i class="fa-regular fa-circle-check"></i>Coprologico</li>
+                    <p class="Precios" ><span>Precio:</span> 75.000 COP 4 exámenes</p>
                 </ul>
                 <ul>
                     <p>Chequeo del Adulto</p>
@@ -25,10 +26,11 @@
                     <li><i class="fa-regular fa-circle-check"></i>Creatinina</li>
                     <li><i class="fa-regular fa-circle-check"></i>Vitamina D</li>
                     <li><i class="fa-regular fa-circle-check"></i>GGT</li>
+                    <p class="Precios" ><span>Precio: </span> 350.000 COP 12 exámenes </p>
                 </ul>
             </div>
             <div class="modal-img">
-                <img title="Chequeos Generales en el BMN" src="/assets/webp/Chequeos Generales en el BMN.png" alt="Realiza tus chequeos medicos generales con el mejor equipo de salud en santa marta">
+                <img title="Chequeos Generales en el BMN" src="/assets/webp/Chequeos Generales en el BMN.webp" alt="Realiza tus chequeos medicos generales con el mejor equipo de salud en santa marta">
             </div>
         </div>
     </div>
@@ -50,10 +52,12 @@
                     <li><i class="fa-regular fa-circle-check"></i>Potasio</li>
                     <li><i class="fa-regular fa-circle-check"></i>Albumina</li>
                     <li><i class="fa-regular fa-circle-check"></i>Urea</li>
+                    <p class="Precios" ><span>Precio:</span> 200.000 COP 9 exámenes</p>
+                    
                 </ul>
             </div>
             <div class="modal-img">
-                <img title="Examenes renales en el laboratorio clinico BMN" src="/assets/webp/Chequeo de riñones en el laboratorio clinico BMN.png" alt="Chequea el funcionamiento de tus riñones en el laboratorio clinico BMN en Santa Marta">
+                <img title="Examenes renales en el laboratorio clinico BMN" src="/assets/webp/Chequeo de riñones en el laboratorio clinico BMN.webp" alt="Chequea el funcionamiento de tus riñones en el laboratorio clinico BMN en Santa Marta">
             </div>
         </div>
     </div>
@@ -76,7 +80,10 @@
                     <li><i class="fa-regular fa-circle-check"></i>Perfil 20</li>
                     <li><i class="fa-regular fa-circle-check"></i>Perfil M</li>
                     <li><i class="fa-regular fa-circle-check"></i>Chequeo del Hombre</li>
+
+                    
                 </ul>
+                <p class="Precios" ><span><a href="https://wa.me/573008897527">Whatsapp</a></span> ¡Pregunta por el servicio que necesites!</p>
             </div>
             <div class="modal-img">
                 <img title="Examina a toda tu familia y mantente al tanto de su salud" src="/assets/webp/Chequeos vacacionales.webp" alt="En estas vacaciones examinia la salud de toda tu familia con los examenes clínico del niño, del adolecente, el adulto y el adulto mayor">
@@ -102,6 +109,8 @@
                     <li><i class="fa-regular fa-circle-check"></i>CGT</li>
                     <li><i class="fa-regular fa-circle-check"></i>PSA</li>
                     <li><i class="fa-regular fa-circle-check"></i>Testosterona Total</li>
+                    <p class="Precios" ><span>Precio:</span> 485.000 COP 13 exámenes</p>
+                    
                 </ul>
             </div>
             <div class="modal-img">
@@ -122,6 +131,8 @@
                     <li><i class="fa-regular fa-circle-check"></i>Bilirrubinas</li>
                     <li><i class="fa-regular fa-circle-check"></i>Fosfatasa Alcalina</li>
                     <li><i class="fa-regular fa-circle-check"></i>GGT</li>
+                    <p  class="Precios" ><span>Precio:</span> 119.000 COP 6 exámenes </p>
+
                 </ul>
             </div>
             <div class="modal-img">
@@ -149,9 +160,10 @@
                     <li><i class="fa-regular fa-circle-check"></i>Perfil Hepático</li>
                     <li><i class="fa-regular fa-circle-check"></i>Vitamina B12</li>
                 </ul>
+                <p class="Precios" ><span>Precio:</span> 471.000 COP 17 exámenes</p>
             </div>
             <div class="modal-img">
-                <img title="Examnes clínicos para el adulto mayor" src="/assets/webp/bmn-laboratorio-adultos-mayores.png" alt="Chequeo del adulto mayor">
+                <img title="Examnes clínicos para el adulto mayor" src="/assets/webp/bmn-laboratorio-adultos-mayores.webp" alt="Chequeo del adulto mayor">
             </div>
         </div>
     </div>
@@ -196,6 +208,8 @@
                     </li>
                     <li><i class="fa-regular fa-circle-check"></i>TSH</li>
                     <li><i class="fa-regular fa-circle-check"></i>T4 Libre</li>
+                    <p class="Precios" ><span>Precio:</span> 467.000 COP 20 exámenes</p>
+
                 </ul>
                 <br>
                 <ul>
@@ -212,6 +226,7 @@
                             <li><img src="/assets/webp/icon-bmn.png" alt="">Sodio</li>
                         </ul>
                     </li>
+                    <p class="Precios" ><span>Precio:</span> 768.000 COP 27 exámenes</p>
 
                 </ul>
             </div>
@@ -239,6 +254,7 @@
                     <li><i class="fa-regular fa-circle-check"></i>TSH</li>
                     <li><i class="fa-regular fa-circle-check"></i>Parcial de Orina</li>
                 </ul>
+                <p class="Precios"><span>Precio:</span> 350.000 COP 12 exámenes</p>
                 <br>
                 <ul>
                     <p>Perfil M Plus</p>
@@ -248,6 +264,7 @@
                     <li><i class="fa-regular fa-circle-check"></i>Estradiol</li>
                     <li><i class="fa-regular fa-circle-check"></i>Progesterona</li>
                 </ul>
+                <p class="Precios" ><span>Precio:</span> 689.000 COP 17 exámenes</p>
             </div>
             <div class="modal-img">
                 <img title="Examenes clínicos para la mujer" src="/assets/webp/Perfil M.webp" alt="Chequeos clinicos de la mujer en BMN Laboratorio clinico">
@@ -272,8 +289,8 @@
                     <li><i class="fa-regular fa-circle-check"></i>Parcial de Orina</li>
                     <li><i class="fa-regular fa-circle-check"></i>Frotis Vaginal (Mujer)</li>
                     <li><i class="fa-regular fa-circle-check"></i>VIH 1/2 Anticuerpos (Virus de Inmunodeficiencia Humana)</li>
-
                 </ul>
+                <p class="Precios" ><span>Precio: </span> 782.000 COP 11 exámenes</p>
             </div>
             <div class="modal-img">
                 <img title="Examenes par enfermedades de transmisión sexual" src="/assets/webp/sexo seguro.webp" alt="Mantente al tanto de tu vida sexual con el chequeo medico de enfermedades de transmisión sexual en el laboratorio clínico Betty Mercado Niebles en Santa Marta">
@@ -290,11 +307,12 @@
                 <ul>
                     <p>Examenes Recomendados</p>
                     <li><i class="fa-regular fa-circle-check"></i>Glisemia Basal</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Glisemia Post Carga</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Glicemia Post Carga</li>
                     <li><i class="fa-regular fa-circle-check"></i>Hemoglobina Glicosilada</li>
                     <li><i class="fa-regular fa-circle-check"></i>Microalbuminuria</li>
                     <li><i class="fa-regular fa-circle-check"></i>Creatinina</li>
                 </ul>
+                <p class="Precios" ><span>Precio:</span> 131.000 COP 5 exámenes</p>
             </div>
             <div class="modal-img">
                 <img title="Fit Check" src="/assets/webp/Monitorea-tu-diabetes-BMN.webp" alt="Mantente al dia con tu diabetes en el laboratorio clínico Betty Mercado Niebles en Santa Marta">
@@ -312,7 +330,7 @@
                     <p>Examenes Recomendados</p>
                     <li><i class="fa-regular fa-circle-check"></i>Hemograma</li>
                     <li><i class="fa-regular fa-circle-check"></i>Perfil lipídico</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Glisemia</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Glicemia</li>
                     <li><i class="fa-regular fa-circle-check"></i>BUN</li>
                     <li><i class="fa-regular fa-circle-check"></i>Creatinina</li>
                     <li><i class="fa-regular fa-circle-check"></i>Acido Úrico</li>
@@ -325,6 +343,7 @@
                     <li><i class="fa-regular fa-circle-check"></i>T4 Libre</li>
                     <li><i class="fa-regular fa-circle-check"></i>Vitamina D</li>
                 </ul>
+                <p  class="Precios" ><span>Precio:</span> 564.000 COP 18 exámenes</p>
             </div>
             <div class="modal-img">
                 <img title="Fit Check" src="assets/webp/chequeo-fit.webp" alt="¿Listo para comenzar tu rutina de ejercicios? Antes de dar el primer paso, asegúrate de conocer tu estado de salud visita el laboratorio clínico Betty Mercado Niebles en Santa Marta. ">

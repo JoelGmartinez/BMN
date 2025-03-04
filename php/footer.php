@@ -3,9 +3,9 @@
           <div class="footer__contact">
             <div class="footer__tenic">
               <a href="bmn.com.co"><img title="Logo Laboratorio Clínico Betty Mercado Niebles"
-                src="/assets/webp/logo-bmn-laboratirío-clinico.png"
+                src="/assets/webp/logo-bmn-laboratirío-clinico.webp"
                 loading="lazy"
-                alt="Laboratorío Clínico Betty Mercado Niebles de Santa Marta"
+                alt="Laboratorío Clínico Betty Mercado Niebles en Santa Marta"
               /></a>
               
               <div class="footer__soporte">
